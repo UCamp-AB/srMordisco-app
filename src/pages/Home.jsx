@@ -10,7 +10,7 @@ const sedesToca={
     ubicacion: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.8283949826764!2d-73.90963162411799!3d4.968174839278891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e40730dc150140d%3A0x8727561d36c529c0!2sSocial%20Center%20Plazoleta%3B%20food%2C%20Grill%20and%20Drink!5e0!3m2!1ses-419!2sco!4v1692432742186!5m2!1ses-419!2sco",
     numero: "+57 313 802 64 14",
     titulo: "Tocancipa",
-    descripcion:"El mejor lugar aquí encontrarás gran variedad de platos. Todo nuestro menú se encuentra dispobnible para que disfrutes con tu familia."
+    descripcion:"El mejor lugar, aquí encontrarás gran variedad de platos. Todo nuestro menú se encuentra dispobnible para que disfrutes con tu familia."
 }
 
 const sedesZipa={
