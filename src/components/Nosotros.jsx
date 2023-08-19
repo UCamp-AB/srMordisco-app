@@ -1,19 +1,18 @@
-function Nosotros() {
+function Nosotros(props) {
     return (
         <div className="text-start">
-            <h2> Reserva con nosotros</h2>
-            <p>A partir de tu contacto, nos comunicaremos contigo para revisar fechas y disponibilidad de horarios.</p>
+            <p>Reserva con nosotros para tener el placer de antenderte. No te arrepentirás !!!</p>
             <dl>
                 <div>
-                    <dt className="sr-only">Tocancipá</dt>
+                    <dt className="">Dirección</dt>
                     <dd>
-                        <p>Transversal 7A # 18 - 78 - Social Center Container Rojo</p>
+                        <p>{props.direccion} - {props.titulo}</p>
                     </dd>
                 </div>
                 <div className="mt-20">
-                    <dt className="sr-only">Número</dt>
+                    <dt className="">Número</dt>
                     <dd className="flex">
-                        <p>+57 323 247 29 55</p>
+                        <p>{props.numero}</p>
                     </dd>
                 </div>
             </dl>
