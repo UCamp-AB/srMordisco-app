@@ -49,6 +49,7 @@ Header img {
   padding: 5px;
 }
 
+
 .nav-link{
   text-decoration: none;
   color: #fff;
@@ -233,9 +234,9 @@ footer h6{
 }
 
 .card{
-  color: rgba(99, 103, 108, 0.7)
+  color: rgba(99, 103, 108, 0.7);
+  display:flex
 }
-
 
 @media screen and (max-width: 800px) {
   .inicial{
@@ -247,4 +248,13 @@ footer h6{
       align-items: center;
       width: fit-content;
       margin: 10px;
-  }}
+  }
+
+    Header{
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+        flex-direction: column;
+    }
+}
