@@ -238,6 +238,10 @@ footer h6{
   display:flex
 }
 
+.card-body{
+  color: #333;
+}
+
 @media screen and (max-width: 800px) {
   .inicial{
       display: flex;
