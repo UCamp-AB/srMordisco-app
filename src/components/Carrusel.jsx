@@ -28,28 +28,28 @@ function Menu() {
                         <img src={paella} className="img-thumbnail mx-auto d-block" alt="..." />
                         <div className=" text-bg-dark opacity-75 p-1 carousel-caption d-md-block">
                             <h4 className="fw-bold">PAELLA</h4>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <p>Deliciosa Paella con ingredientes auténticos</p>
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval={3000}>
                         <img src={salchipapa} className="img-thumbnail mx-auto d-block" alt="..." />
                         <div className="text-bg-dark opacity-75 p-1 carousel-caption d-md-block">
                             <h4 className="fw-bold">SALCHIPAPAS</h4>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <p>Preparadas a la perfección con la mejor papa y salchicha ranchera</p>
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval={3000}>
                         <img src={mazorcada} className="img-thumbnail mx-auto d-block" alt="..." />
                         <div className="text-bg-dark opacity-75 p-1 carousel-caption d-md-block">
                             <h4 className="fw-bold">MAZORCADAS</h4>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <p>Preparadas con un maiz tierno ideal para acompañar sus diferentes combinaciones</p>
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval={3000}>
                         <img src={picada} className="img-thumbnail mx-auto d-block" alt="..." />
                         <div className="text-bg-dark opacity-75 p-1 carousel-caption d-md-block">
                             <h4 className="fw-bold">PICADAS</h4>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <p>Para compartir en familia, con el mejor sabor</p>
                         </div>
                     </div>
                 </div>

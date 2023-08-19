@@ -27,13 +27,13 @@ function Reserva() {
     };
 
     return (
-        <>
+        <div className="reservacion">
             <h3 className="text-center p-2 my-2 mx-5 ">Reserva con nosotros</h3>
             <div className='info text-center mx-5 my-2'>
                 <div className='row align-items-center mx-5'>
                     <div className="col">
                         <Nosotros titulo={sedeInfo.titulo} direccion={sedeInfo.direccion} numero={sedeInfo.numero}/>
-                        <Mapa src={sedeInfo.ubicacion}/>
+                        <Mapa className="Mapita" src={sedeInfo.ubicacion}/>
                     </div>
                     <div className='vr'></div>
                     <div className="col">
@@ -41,7 +41,7 @@ function Reserva() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 }
 

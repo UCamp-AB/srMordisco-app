@@ -261,4 +261,52 @@ footer h6{
         text-align: center;
         flex-direction: column;
     }
+
+    .Logo{
+      height: 240px;
+      text-align: center;
+      align-items: center;
+    }
+
+    video{
+      height:240px;
+      width:auto;
+      padding: 15px;
+    }
+
+    #video-img{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .reservacion{
+      display: flex;
+      padding: 0;
+      margin: 0;
+      flex-direction: column;
+    }
+
+    .map-responsive{
+      overflow:hidden;
+      padding-bottom:56.25%;
+      position:relative;
+      height:0;
+  }
+
+  .map-responsive iframe{
+      left:0;
+      top:0;
+      height:100%;
+      width:100%;
+      position:absolute;
+  }
+
+  .vr{
+    display: none;
+  }
+
+  .info{
+    padding: 0;
+    padding-bottom: 130px;
+  }
 }
